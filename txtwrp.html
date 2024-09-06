@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p.text1{
+            width: 400px;
+            border: 2px solid crimson;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow:clip;
+        }
+        p.text2{
+            width:400px;
+            border:3px solid orange;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    </style>
+</head>
+<body>
+    <b>Original Text:</b>
+
+   <p>
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis ullam id laudantium perferendis maiores aspernatur voluptatum tempore nostrum dicta cum ad velit vero, quibusdam iste minus recusandae pariatur, eveniet obcaecati.
+    </p>
+    
+    <b>Text overflow:clip:</b>
+    <p class="text1">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis ullam id laudantium perferendis maiores aspernatur voluptatum tempore nostrum dicta cum ad velit vero, quibusdam iste minus recusandae pariatur, eveniet obcaecati.
+    </p>
+
+    <b>Text Overflow:ellipsis:</b>
+    <p class="text2">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis ullam id laudantium perferendis maiores aspernatur voluptatum tempore nostrum dicta cum ad velit vero, quibusdam iste minus recusandae pariatur, eveniet obcaecati.
+    </p>
+</body>
+</html>
+

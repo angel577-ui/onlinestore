@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1
+        {
+        -webkit-animation-duration: 2s;   
+        -webkit-animation-name: anim1;
+        color:red;
+        -webkit-animation-delay: 1s;
+        -webkit-animation-direction:alternate-reverse;
+        -webkit-animation-iteration-count:infinite;
+       }
+    
+       @-webkit-keyframes anim1
+       {
+        from{
+            margin-right:50%;
+        }
+        to{
+            margin-left:50%;
+        }
+       }
+
+     h2
+       {
+        -webkit-animation-duration: 2s;   
+        -webkit-animation-name: anim2;
+        color:blue;
+        -webkit-animation-delay: 1s;
+        -webkit-animation-direction: reverse;
+        -webkit-animation-iteration-count: infinite;
+       }
+       
+       @-webkit-keyframes anim2
+       {
+        from{
+            margin-bottom:70%
+        }
+        to{
+            margin-top:80%;
+        }
+       }
+</style>
+</head>
+<body>
+    <h1> Graphics Technology</h1>
+    <h2> GTP</h2>
+</body>
+</html>
